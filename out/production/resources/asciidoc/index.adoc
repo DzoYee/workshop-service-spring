@@ -1,0 +1,23 @@
+= Hello World Service API Guide
+:doctype: book
+:nofooter:
+
+[[hello-world]]
+=== Hello World
+
+A `GET` request will return 'Hello World!'.
+
+==== Response structure
+
+[cols="20,10,70"]
+include::{snippets}/helloWorld/response-fields.adoc[]
+
+==== Example request
+
+[cols="100"]
+include::{snippets}/helloWorld/curl-request.adoc[]
+
+==== Example response
+
+[cols="100"]
+include::{snippets}/helloWorld/http-response.adoc[]
